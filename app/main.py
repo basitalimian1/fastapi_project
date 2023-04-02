@@ -26,4 +26,4 @@ app.include_router(router=vote.router)
 # Get Method
 @app.get("/")
 def root():
-    return {"message": "Hello World we made some changes"}
+    return {"message": "Hi there how are you!!!"}
